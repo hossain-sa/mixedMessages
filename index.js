@@ -7,3 +7,10 @@ const inspiringMsgs = ["Whatever the mind of man can conceive and believe, it ca
 // quotes from https://bookroo.com/quotes/nonsense
 const nonsenseMsgs = ["The fault lies not with the mob, who demands nonsense, but with those who do not know how to produce anything else.", "The very nature of Joy makes nonsense of our common distinction between having and wanting.", "In nonsense is strength."];
 
+// get random number between 1-3 to select msg category
+const categorySelector = Math.round(Math.random() * 2) + 1;
+
+// get random number between 1-3 for message selector
+const messageSelector = Math.round(Math.random() * 2) + 1;
+
+console.log(categorySelector, messageSelector);
