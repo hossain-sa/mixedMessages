@@ -20,10 +20,10 @@ const nonsenseMsgs = [
 ];
 
 // get random number between 1-3 to select msg category
-const categorySelector = Math.round(Math.random() * 2) + 1;
+const categorySelector = Math.round(Math.random() * 2);
 
 // get random number between 1-3 for message selector
-const messageSelector = Math.round(Math.random() * 2) + 1;
+const messageSelector = Math.round(Math.random() * 2);
 
 // display message function
 
